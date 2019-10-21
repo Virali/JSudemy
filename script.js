@@ -78,4 +78,4 @@ var appData = {
         for( let prop in appData) alert("Наша программа включает в себя данные:" + prop);
     }
 };
-appData.showData();
+//appData.showData();
