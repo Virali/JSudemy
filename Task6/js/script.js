@@ -10,7 +10,7 @@ menu.insertBefore(temp, menuitems[2]);
 let five = document.createElement('li');
 
 five.classList.add('menu-item');
-five.innerHTML = "Пятый пункт";
+five.textContent = "Пятый пункт";
 menu.appendChild(five);
 
 let body = document.querySelector("body");
